@@ -1,7 +1,8 @@
 public class For {
     public static void main(String[] args) {
-        for (int i = 0; i <10; i=i+3){
-            System.out.println("Czesc Jarek");
+        String [] catTable =new String[]{"Pan Kot", "Kotlet", "Julian", "Kocislaw"};
+        for (int i=0; i<catTable.length; i++) {
+            System.out.println(catTable[i]);
         }
     }
 }
